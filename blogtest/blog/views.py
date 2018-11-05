@@ -2,7 +2,6 @@ from django.shortcuts import render
 
 from .models import Artice
 
-
 def index(request):
     articles = Artice.objects.all()
     return render(request, 'blog/index.html', {'articles': articles})

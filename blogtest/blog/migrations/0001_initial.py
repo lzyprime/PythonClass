@@ -19,4 +19,10 @@ class Migration(migrations.Migration):
                 ('content', models.TextField()),
             ],
         ),
+        migrations.CreateModel(
+            name = "Test",
+            fields = [
+                ()
+            ],
+        )
     ]
